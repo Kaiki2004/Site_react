@@ -44,7 +44,7 @@ A preferência de cor é armazenada no LocalStorage e reaplicada automaticamente
 
 Clone este repositório:
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/seu-usuario/seu-repositorio.git](https://github.com/Kaiki2004/Site_react.git
 
 Acesse o diretório do projeto:
 
