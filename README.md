@@ -27,18 +27,21 @@ Componentes/Nome.js: Componente que exibe o nome do usuário (não fornecido nos
 * Alterar Nome (App.js)
 
    - O nome do usuário é armazenado no estado e pode ser alterado ao clicar no botão "Alterar Nome".
+   ![Entrando com o nome](assets/entrar_sitepng.png)
 
 * Cadastro de Tarefas (Cadastro.js)
 
     - O usuário pode adicionar tarefas a uma lista, que serão armazenadas no LocalStorage para persistência entre recarregamentos da página.
 
    - As tarefas cadastradas são exibidas em uma lista na interface.
+   ![Lista de tarefas](assets/lista_de_tarefas.png)
 
 * Personalização da Cor de Fundo (Cadastro.js)
 
 * O usuário pode selecionar uma cor de fundo entre as opções disponíveis (Branco, Azul Claro, Verde Claro e Preto).
 
     - A preferência de cor é armazenada no LocalStorage e reaplicada automaticamente ao recarregar a página.
+    ![Mudança de cores](assets/tela_inicial.png)
 
 ### 🚀 Como Executar o Projeto
 
