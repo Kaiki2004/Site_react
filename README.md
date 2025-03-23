@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# React - Lista de Tarefas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este repositório contém um projeto simples de React que apresenta um site interativo onde o usuário pode alterar o nome exibido na tela, cadastrar tarefas e personalizar a cor de fundo da aplicação.
 
-## Available Scripts
+## 📌 Tecnologias Utilizadas
 
-In the project directory, you can run:
+React.js
 
-### `npm start`
+JavaScript (ES6+)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+LocalStorage para persistência de dados
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Hooks do React (useState, useEffect)
 
-### `npm test`
+## 📂 Estrutura do Projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O projeto é composto pelos seguintes arquivos principais:
 
-### `npm run build`
+App.js: Componente principal do projeto, onde um nome é exibido na tela e pode ser alterado ao clicar em um botão.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Cadastro.js: Componente responsável pelo cadastro de tarefas e pela personalização da cor de fundo da aplicação.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Componentes/Nome.js: Componente que exibe o nome do usuário (não fornecido nos arquivos, mas referenciado no App.js).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### ⚙️ Funcionalidades
 
-### `npm run eject`
+* Alterar Nome (App.js)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   - O nome do usuário é armazenado no estado e pode ser alterado ao clicar no botão "Alterar Nome".
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Cadastro de Tarefas (Cadastro.js)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    - O usuário pode adicionar tarefas a uma lista, que serão armazenadas no LocalStorage para persistência entre recarregamentos da página.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   - As tarefas cadastradas são exibidas em uma lista na interface.
 
-## Learn More
+* Personalização da Cor de Fundo (Cadastro.js)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* O usuário pode selecionar uma cor de fundo entre as opções disponíveis (Branco, Azul Claro, Verde Claro e Preto).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    - A preferência de cor é armazenada no LocalStorage e reaplicada automaticamente ao recarregar a página.
 
-### Code Splitting
+### 🚀 Como Executar o Projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Clone este repositório:
 
-### Analyzing the Bundle Size
+```
+git clone https://github.com/Kaiki2004/Site_react.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Acesse o diretório do projeto:
+```
+cd primeiro-site
+```
 
-### Making a Progressive Web App
+Instale as dependências:
+```
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Inicie o servidor de desenvolvimento:
+```
+npm start
+```
+Acesse no navegador:
+```
+http://localhost:3000
+```
 
-### Advanced Configuration
+## 💡 Melhorias Futuras
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* Adicionar a funcionalidade de excluir tarefas.
 
-### Deployment
+* Implementar um sistema de autenticação para diferentes usuários.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* Melhorar o design da interface utilizando CSS ou frameworks como Tailwind CSS.
 
-### `npm run build` fails to minify
+* Melhorar o design da interface utilizando CSS ou frameworks como Tailwind CSS.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📜 Licença
+
+Este projeto está licenciado sob a MIT License.
